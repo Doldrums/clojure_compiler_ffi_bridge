@@ -1,0 +1,22 @@
+PODS:
+  - clojure_compiler_bridge (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - clojure_compiler_bridge (from `Flutter/ephemeral/.symlinks/plugins/clojure_compiler_bridge/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  clojure_compiler_bridge:
+    :path: Flutter/ephemeral/.symlinks/plugins/clojure_compiler_bridge/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  clojure_compiler_bridge: a0e37827e1505fc85378b996be7fbc6d5a07cecc
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+
+PODFILE CHECKSUM: 353c8bcc5d5b0994e508d035b5431cfe18c1dea7
+
+COCOAPODS: 1.12.0

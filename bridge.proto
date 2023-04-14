@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+package bridge;
+
+enum TokenType {
+    TT_SYMBOL = 0;
+    TT_KEYWORD = 1;
+    TT_STRING = 2;
+    TT_NUMBER = 3;
+    TT_NIL = 4;
+    TT_TRUE = 5;
+    TT_FALSE = 6;
+    TT_LIST = 7;
+}
+
+message Token {
+    TokenType type = 1;
+    oneof value {
+        TokenSymbol symbol = 2;
+        TokenKeyword keyword = 3;
+        TokenString string = 4;
+        TokenNumber number = 5;
+        TokenNil nil = 6;
+        TokenTrue true = 7;
+        TokenFalse false = 8;
+        TokenList list = 9;
+    }
+}
+
+message TokenSymbol {
+    string name = 1;
+}
+
+message TokenKeyword {
+    string value = 1;
+}
+
+message TokenString {
+    string value = 1;
+}
+
+message TokenNumber {
+    double value = 1;
+}
+
+message TokenNil {
+}
+
+message TokenTrue {
+}
+
+message TokenFalse {
+}
+
+message TokenList {
+    string start_symbol = 1;
+    string end_symbol = 2;
+    repeated Token list = 3;
+}
