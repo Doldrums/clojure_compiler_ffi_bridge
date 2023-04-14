@@ -1,4 +1,4 @@
-# [flutter_clojure_bridge](https://github.com/Doldrums/clojure_compiler_ffi_bridge): High-level memory-safe FFI bridge for Flutter/Dart <-> hand-written Clojure compiler
+# [clojure_compiler_ffi_bridge](https://github.com/Doldrums/clojure_compiler_ffi_bridge): High-level memory-safe FFI bridge for Flutter/Dart <-> hand-written Clojure compiler
 
 [![Flutter Package](https://img.shields.io/pub/v/clojure_compiler_ffi_bridge.svg)](https://pub.dev/packages/clojure_compiler_ffi_bridge)
 [![Stars](https://img.shields.io/github/stars/Doldrums/clojure_compiler_ffi_bridge)](https://github.com/Doldrums/clojure_compiler_ffi_bridge)
@@ -15,6 +15,7 @@ Want to combine the best between [Flutter](https://flutter.dev/), a cross-platfo
 * **Pure-Dart compatible:** This package is 100% compatible with Dart.
 
 ## 💡 Usage
+![Example](https://github.com/Doldrums/clojure_compiler_ffi_bridge/blob/main/example.gif)
 ### Installation 
 
 ```yaml
