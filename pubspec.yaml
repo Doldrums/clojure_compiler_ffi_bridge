@@ -1,4 +1,4 @@
-name: clojure_compiler_bridge
+name: clojure_compiler_ffi_bridge
 description: High-level memory-safe FFI bridge for Flutter/Dart <-> hand-written Clojure compiler
 version: 0.0.1
 homepage: https://amoriodi.xyz
