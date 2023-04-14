@@ -1,4 +1,4 @@
-import 'package:clojure_compiler_bridge/generated/bridge.pb.dart' as pb;
+import 'package:clojure_compiler_ffi_bridge/generated/bridge.pb.dart' as pb;
 
 enum TokenType { symbol, keyword, string, number, nil, bool, list, unknown }
 

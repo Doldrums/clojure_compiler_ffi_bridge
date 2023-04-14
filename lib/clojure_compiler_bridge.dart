@@ -1,10 +1,10 @@
 import 'dart:ffi';
 
-import 'package:clojure_compiler_bridge/generated/bridge.pb.dart' as pb;
-import 'package:clojure_compiler_bridge/utils.dart';
+import 'package:clojure_compiler_ffi_bridge/generated/bridge.pb.dart' as pb;
+import 'package:clojure_compiler_ffi_bridge/utils.dart';
 import 'package:ffi/ffi.dart';
 
-import 'package:clojure_compiler_bridge/generated/clojure_compiler_bridge_bindings.dart';
+import 'package:clojure_compiler_ffi_bridge/generated/clojure_compiler_bridge_bindings.dart';
 
 import 'token.dart';
 
